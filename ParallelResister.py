@@ -7,5 +7,5 @@ def parallel_resistance(x):
         r0 = r0 + 1/x[i]
         pass
     re = 1 / r0
-    print('the resistance is:',re,'Ω')
+    # print('the resistance is:',re,'Ω')
     return re

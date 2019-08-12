@@ -27,6 +27,6 @@ def voltage_capacity(r1,r2,c1,u,t,uc0,t0):
     parameter_a = temp0 * (uc0 - temp1)
     temp3 = exp(-1 * t /tao)
     uc = parameter_a * temp3 + temp1
-    print("the voltage of capacity at time ",t,"s is",uc,'V')
+    # print("the voltage of capacity at time ",t,"s is",uc,'V')
     return uc
 

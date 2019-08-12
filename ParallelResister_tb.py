@@ -9,7 +9,7 @@ c = 5
 t = constant_time(re,c)
 x = exp(1)
 print(x)
-uc = voltage_capacity(51000,5000,0.000001,5,0.001,0,0)
+uc = voltage_capacity(51000,5000,0.000001,0,0.001,5,0)
 
 end_time = 0.05
 step_time = 0.000001
@@ -18,7 +18,7 @@ list_t = []
 list_v = []
 for n in range(0,number):
     t = 0 + n * step_time
-    v = voltage_capacity(51000,5000,0.000001,5,t,0,0)
+    v = voltage_capacity(51000,5000,0.000001,0,t,5,0)
     list_v.append(v)
     list_t.append(t)
     pass
